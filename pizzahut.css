@@ -1,0 +1,483 @@
+
+body{
+   
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.image{
+    width: 155px;
+    height: 30px;
+    padding-left: 134px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.signin{
+    float: left;
+    font-weight: normal;
+    text-decoration: underline dotted;
+    text-underline-position: under;
+    font-size: 14px;
+    font-family:  "Open Sans", system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 20px;
+    color: rgb(107, 110, 121);
+    white-space: nowrap;
+    padding-left: 500px;
+    width: 20%;
+    margin-left: 100px;
+    align-items: center;
+    position: relative;
+    top: -31px;
+    left: 580px;
+    cursor: pointer;
+   
+}
+.logo{
+    padding-left: 20px;
+    width: 80%;
+}
+.image1{
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -8px;
+    
+    
+}
+.mid-text{
+    
+    font-family: Sharp Sans Bold Display No1,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    line-height: 1;
+    font-weight: bold;
+    font-size: .7cm;
+    position: relative;
+    top: -180px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.header-logo{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    width: 100%;
+    height: 54px;
+    margin: 0;
+    padding: 0;
+    box-shadow: rgb(0 0 0 / 30%) 0px 3px 5px 0px;
+}
+.body1{
+    margin: 0;
+}
+.container-mid{
+    margin: 0;
+    padding: 0;
+}
+.mid-pic{
+    margin: 0;
+    
+    position: relative;
+    top: -148px;
+    padding-left: 157px;
+}
+.mid-container{
+    width: 100%;
+    height: 337px;
+    position: relative;
+    top: -140px;
+    align-items: center;
+}
+.box{
+    z-index: 300;
+    background-color: white;
+    padding-bottom: 10px;
+    margin: 0;
+    color: #231f20;
+    width: 500px;
+    height: 250px;
+    position: relative;
+    left: 29%;
+}
+.box1{
+z-index: 400;  
+box-shadow: rgb(0 0 0 / 30%) 0px 20px 22px 0px;
+width: 500px;
+height: 260px;  
+}
+.boxheader{
+    width: 450px;
+    height: 62px;
+}
+.delivery{
+   margin-right: 2px;
+   align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-family: Sharp Sans Semibold Display No1,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    z-index: 200;
+    white-space: nowrap;
+    color: #da291c;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+    width: 225px;
+    height: 62px;
+    display: flex;
+    float: left;
+    border: none;
+   
+}
+
+.takeaway{
+    color: #da291c;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: #fff;
+    height: 62px;
+    display: flex;
+    float: left;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 200;
+    font-family: Sharp Sans Semibold Display No1,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    width: 220px;
+    cursor: pointer;
+
+}
+.button{
+    background-color: white;
+    border: none;
+    margin: 0;
+
+}
+.delivery:hover{
+    background-color: #454545;
+}
+.takeaway:hover{
+    background-color:  #454545;
+}
+.text1{
+    font-family: Sharp Sans Bold Display No1,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 17px;
+    color: #231f20;
+    font-weight: bold;
+    position: relative;
+    left: 15px;
+}
+.text2{
+    font-family: Open Sans,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 1.75;
+    color: #231f20;
+    position: relative;
+    left: 15px;
+}
+.first-form{
+    color: #da291c;
+    font-family: Open Sans,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 600;
+    width: 455px;
+    height: 39px;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.form-border{
+    border-color: #454545;
+    border-radius: 3px;
+   opacity: 50%;
+}
+.second-form{
+    font-size: .8rem;
+    font-weight: 400;
+    font-family: Open Sans,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    border: none;
+    cursor: pointer;
+    width: 455px;
+    height: 39px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    height: 39px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px;
+}
+   
+.location{
+    color: blue;
+    width: 479px;
+    height: 48px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Open Sans,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    cursor: pointer;
+}
+.text-span{
+    font-size: .7cm;
+    margin: .5em;
+    font-family: Sharp Sans Bold Display No1,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+
+}
+.text-span::before,
+.text-span::after{
+    display: inline-block;
+    content: "";
+    width: 17.5em;
+    height: 0.2em;
+    margin: 0 0.5em;
+    border-top: 2px solid;
+    border-color: #d9dde3;
+}
+.mid-pic{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 148px;
+}
+.image2{
+    width: 500px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.deals{
+    width: 1017px;
+    height: 50px;
+    background-color:#0a8020;
+    text-align: center;
+    position: relative;
+    left: 152px;
+    top: -138px;
+    cursor: pointer;
+    font-family: Open Sans,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    border-radius: 11px;
+}
+.deals-btn{
+    background-color:#0a8020;
+    color: #fff;
+    border-color: #0a8020;
+    border-radius: 0%;
+    width: 1017px;
+    height: 50px;
+    border-radius: 11px;
+}
+.deals-btn:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    background-color: black;
+    height: 517px;
+    position: relative;
+    bottom: 1px;
+    position: relative;
+    top: -114px;
+}
+.footer-mid1{
+    color: #fff;
+    position: relative;
+    left: 150px;
+    top: 50px;
+    float: left;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 11px;
+    cursor: pointer;
+}
+.footer-mid2{
+    color: #fff;
+    position: relative;
+    left: 343px;
+    top: 61px;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 11px;
+    cursor: pointer;
+}
+.footer-mid3{
+    color: #fff;
+    position: relative;
+    left: 645px;
+    top: -24px;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 11px;
+    left: 710px;
+    cursor: pointer;
+    
+}
+.footer-mid4{
+    color: #fff;
+    position: relative;
+    left: 829px;
+    top: -69px;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 11px;
+    cursor: pointer;
+    
+    
+}
+.text-bold{
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    top: 10px;
+    
+}
+.logos{
+    width: 1px;
+    display: inline;
+    position: relative;
+    left: 295px;
+}
+.logos1{
+    min-width: 1px;
+    height: 40px;
+    width :130px;
+    cursor: pointer;
+}
+.logos2{
+    height: 40px;
+    margin-right: 18px;
+    width :130px;
+    cursor: pointer;
+}
+.end-footer{
+    font-size: 11px;
+    color: #78838c;
+    text-align: center;
+    font-family: Open Sans,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    
+}
+.end-footer-text{
+    position: relative;
+    left: -110px;
+    bottom: 59px;
+}
+.fssai{
+    
+    width: 114px;
+   /* height: 163px;*/
+    height: 50px
+}
+.fssai-block{
+    width: 72px;
+    height: 72px;
+    background-color: white;
+    border-radius: 2px;
+    justify-content: center;
+    position: relative;
+    left: 590px;
+    bottom: 57px;
+}
+.footer-end1{
+    color: #fff;
+    font-family: Open Sans,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    line-height: 1.5;
+    position: relative;
+    left: 145px;
+    top: 20px;
+    font-size: 14px;
+    
+}
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    position: relative;
+    right: 0%;
+    border: 0%;
+}
+.location-text{
+    position: relative;
+    left: -132px;
+    top: -14px;
+    cursor: pointer;
+}
+.location-icon{
+    
+    width: 12px;
+    height: 12px;
+    position: relative;
+    left: -217px;
+    top: 19px;
+}
+.text-deals{
+    font-size: 19px;
+}
+.privacy-text{
+    float: left;
+    position: relative;
+    left: -91px;
+    top: -16px;
+}
+.text-bold1{
+position: relative;
+    left: -95px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.feedback-btn{
+    background-color: #fff;
+    border-radius: 9px;
+    position: relative;
+    left: 188px;
+    top: -38px;
+    width: 150px;
+    height: 50px;
+}
+.feedback-btn:hover{
+    cursor: pointer;
+    background-color: #bcc1c5;
+}
+.text-feedback{
+    font-size: 17px;
+    position: relative;
+    top: -3px;
+}
+.text-help{
+    position: relative;
+    top: 10px;
+}
+.logo-social{
+    
+    width: 18px;
+    height: 18px;
+    position: relative;
+    bottom: 122px;
+    left: 726px;
+    float: left;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.followus{
+    position: relative;
+    left: 749px;
+    bottom: 114px;
+    font-family: Open Sans,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem
+}
+.container{
+    height: 89vh;
+}
+
